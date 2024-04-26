@@ -8,6 +8,10 @@
   </head>
   <body>
     <div class="main">
+
+<!--------------------------------------------------------------- Navigation Bar -------------------------------------------------------------->  
+      
+
       <div class="navbar">
         <div class="icon">
           <h2 class="logo">ssjdeveloper</h2>
@@ -15,23 +19,51 @@
         <div class="menu">
           <ul>
             <li><a href="#">HOME</a></li>
-            <li><a href="#">ABOUT</a></li>
-            <li><a href="#">SERVICE</a></li>
-            <li><a href="#">DESIGN</a></li>
-            <li><a href="#">CONTACT</a></li>
+            <div class="dropmain">
+            <li><a href="./pages/courses.html">COURSES</a>
+              <div class="dropdown">
+               <a href="#">LIVE</a>
+               <a href="#">JAVA</a>
+               <a href="#">HTML</a>
+               <a href="#">CSS</a>
+               <a href="#">DSA</a>
+               <a href="#">NODE.JS</a>
+               <a href="#">REACT.JS</a>
+                <a href="#">JAVA SCRIPT</a>
+                <a href="#">FULL STACK WEB DEVELOPMENT</a>
+
+            </div>
+            </li>
+          </div>
+            <div class="dropmain">   
+            <li><a href="#" >SERVICE</a>
+                <!-- --------------------------------------DropDown--------------------------------------- --> 
+              <div class="dropdown">
+            <a href="#">Blogs</a>
+            <a href="#">Free Tube</a>
+            <a href="#">SEO Agency</a>
+            <a href="#">E-Commerce</a>
+            <a href="#">SSJ Online Shop</a>
+            <a href="#">Digital Products</a>
+           <a href="#">Digital Marketing</a>
+            <a href="#">Web Development</a>
+            <a href="#">App Development</a>
+        </div>
+         </li>
+          </div>
+            <li><a href="./pages/about.html">ABOUT</a></li>
+            <li><a href="./pages/contect.html">CONTACT</a></li>
           </ul>
         </div>
 
         <div class="search">
-          <input
-            class="srch"
-            type="search"
-            name=""
-            placeholder="Type To Text"
-          />
+          <input class="srch" type="search"  name="" placeholder="Type To Text"/>
           <a href="#"><button class="btn">search</button></a>
         </div>
       </div>
+
+      <!--------------------------------------------------------- Home Page Content -------------------------------------------------------------->
+
       <div class="content">
         <h1>Web Desing & <br /><span>Development</span><br />Cource</h1>
         <p class="par">
@@ -43,11 +75,16 @@
         </p>
 
         <button class="cn"><a href="#">JOIN US</a></button>
+        
+        <!--------------------------------------------------------------Login Form --------------------------------------------------------------->
 
         <div class="form">
           <h2>Login Here</h2>
           <input type="email" name="email" placeholder="Enter Email Here" />
           <input type="password" name="" placeholder="Enter password Here" />
+
+          <!----------------------------------------------------------- Login Button ------------------------------------------------------------->
+
           <button class="lbtn"><a href="#">Login</a></button>
           <p class="link">
             Don`t have an account
@@ -55,6 +92,8 @@
             <a href="#">Sign up </a> here </a>
           </p>
           <p class="liw">Log in with</p>
+
+          <!---------------------------------------------------------- Login With Icon ----------------------------------------------------------->
 
           <div class="icons">
             <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
@@ -67,7 +106,7 @@
         </div>
       </div>
     </div>
-
+    <!-------------------------------------------------------------- Login With Icon Script ------------------------------------------------------>
     <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
   </body>
 </html>

@@ -16,6 +16,8 @@
   height: 100vh;
 }
 
+/* <------------------------------------------------------------- Navigation Bar --------------------------------------------------------------> */
+
 .navbar {
   width: 1200px;
   height: 75px;
@@ -61,7 +63,7 @@ ul li a {
   color: #fff;
   font-family: Arial;
   font-weight: bold;
-  transition: 0.5s ease-in-out;
+  transition: 0.4s ease-in-out;
 }
 
 ul li a:hover {
@@ -118,6 +120,8 @@ ul li a:hover {
   position: relative;
 }
 
+/* <---------------------------------------------------------- Home Page Content --------------------------------------------------------------> */
+
 .content .par {
   padding-left: 20px;
   padding-bottom: 25px;
@@ -161,6 +165,8 @@ ul li a:hover {
   color: #ff7200;
   font-size: 60px;
 }
+
+/* <-------------------------------------------------------------Login Form -------------------------------------------------------------------> */
 
 .form {
   width: 250px;
@@ -213,6 +219,8 @@ ul li a:hover {
   font-family: Arial;
 }
 
+/* <------------------------------------------------------- Login Button ----------------------------------------------------------------------> */
+
 .lbtn {
   width: 240px;
   height: 40px;
@@ -254,7 +262,7 @@ ul li a:hover {
   padding-bottom: 10px;
   text-align: center;
 }
-
+/* <--------------------------------------------------------------- Login With Icon -----------------------------------------------------------> */
 .icons a {
   text-decoration: none;
   color: #fff;
@@ -270,4 +278,28 @@ ul li a:hover {
 
 .icons ion-icon:hover {
   color: #ff7200;
+}
+
+.dropdown {
+  background: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.8) 50%,
+    rgba(0, 0, 0, 0.8) 50%
+  );
+  width: auto;
+  height: auto;
+  margin-top: 2px;
+  position: absolute;
+  z-index: 1;
+  border-radius: 10px;
+  display: none;
+}
+
+.dropdown a {
+  margin: 10px;
+  display: block;
+}
+
+.dropmain:hover .dropdown {
+  display: block;
 }
